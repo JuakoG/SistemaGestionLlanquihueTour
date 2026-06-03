@@ -27,8 +27,9 @@ Este sistema esta organizado mediante paquetes,principios de encapsulamiento,com
 
 
 ⚙️ Instrucciones para clonar y ejecutar el proyecto
+
 Clona el repositorio desde GitHub:
-git clone https://github.com/usuario/repositorio-evaluacion-final.git
+git clone https://github.com/JuakoG/SistemaGestionLlanquihueTour.git
 Abre el proyecto en IntelliJ IDEA.
 
 Verifica que los archivos .txt estén correctamente ubicados.
@@ -37,6 +38,6 @@ Ejecuta el archivo Main.java desde el paquete app.
 
 Sigue las instrucciones en consola o en la interfaz gráfica (si corresponde).
 
-Repositorio GitHub: [Pega aquí el enlace al repositorio] Fecha de entrega: [DD/MM/2025]
+Repositorio GitHub: https://github.com/JuakoG/SistemaGestionLlanquihueTour Fecha de entrega: [05/06/2026]
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones |
+© Duoc UC | Escuela de Informática y Telecomunicaciones 
