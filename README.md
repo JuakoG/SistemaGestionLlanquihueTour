@@ -1,5 +1,5 @@
 Duoc UC
-🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
+🧠 Evaluación 1 – Desarrollo Orientado a Objetos I
 
 👤 Autor del Proyecto
 
