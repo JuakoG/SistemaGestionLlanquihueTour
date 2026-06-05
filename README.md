@@ -25,6 +25,10 @@ Este sistema esta organizado mediante paquetes,principios de encapsulamiento,com
 
 ├── model/       # Clases de dominio (Persona,Empleado,Direccion)
 
+Clases implementadas
+Persona: clase base que representa a una persona.
+Direccion: clase utilizada mediante composición para almacenar información de dirección.
+Empleado: clase que hereda de Persona y agrega información de los empleados.
 
 ⚙️ Instrucciones para clonar y ejecutar el proyecto
 
@@ -32,11 +36,9 @@ Clona el repositorio desde GitHub:
 git clone https://github.com/JuakoG/SistemaGestionLlanquihueTour.git
 Abre el proyecto en IntelliJ IDEA.
 
-Verifica que los archivos .txt estén correctamente ubicados.
-
 Ejecuta el archivo Main.java desde el paquete app.
 
-Sigue las instrucciones en consola o en la interfaz gráfica (si corresponde).
+Observar los resultados generados en la consola.
 
 Repositorio GitHub: https://github.com/JuakoG/SistemaGestionLlanquihueTour Fecha de entrega: [05/06/2026]
 
