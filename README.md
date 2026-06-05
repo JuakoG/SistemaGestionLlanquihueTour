@@ -25,12 +25,15 @@ Este sistema esta organizado mediante paquetes,principios de encapsulamiento,com
 
 ├── model/       # Clases de dominio (Persona,Empleado,Direccion)
 
+
 Clases implementadas
+
 Persona: clase base que representa a una persona.
 
 Direccion: clase utilizada mediante composición para almacenar información de dirección.
 
 Empleado: clase que hereda de Persona y agrega información de los empleados.
+
 
 ⚙️ Instrucciones para clonar y ejecutar el proyecto
 
