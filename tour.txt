@@ -1,0 +1,14 @@
+CLIENTE;Jose Barrios;28;17.555.436-2;+56935998571;Chile;Santiago;Recoleta;Av.Peru 1255
+
+CLIENTE;Camila Quezada;26;18.043.333-8;+56933252892;Chile;Santiago;Recoleta;Av.Peru 1255
+
+
+EMPLEADO;Mario Balmaceda;33;16.431.333-1;+56922194871;Chile;Santiago;Maipu;5 de abril;Guia;true
+
+EMPLEADO;Fernanda Muñoz;44;14.432.652-2;+56949332861;Argentina;Buenos Aires;San Cristobal;Av.San Juan 1012;Soporte Tecnico;true
+
+EMPLEADO;Ricardo Soto;38;15.234.567-8;+56912345678;Chile;Puerto Montt;Centro;Av. Diego Portales 450;Operador;true
+
+EMPLEADO;Carlos Herrera;41;13.876.543-9;+56955443322;Chile;Puerto Varas;Centro;San Francisco 245;Operador;true
+
+EMPLEADO;Lucia Fernandez;35;22.456.789-1;+5491123456789;Argentina;Bariloche;Centro;Mitre 520;Proveedor;true
