@@ -1,21 +1,23 @@
 package model;
 
+
+// atributos
 public class Direccion {
     private String pais;
     private String ciudad;
     private String comuna;
     private String calle;
-
+// constructor
     public Direccion(String pais, String ciudad, String comuna, String calle) {
         this.pais = pais;
         this.ciudad = ciudad;
         this.comuna = comuna;
         this.calle = calle;
     }
-
+ // constructor vacio
     public Direccion() {
     }
-
+ // getters y setters
     public String getPais() {
         return pais;
     }
@@ -50,7 +52,7 @@ public class Direccion {
 
     @Override
     public String toString() {
-        return "Direccion{" +
+        return "Direccion {" +
                 "pais='" + pais + '\'' +
                 ", ciudad='" + ciudad + '\'' +
                 ", comuna='" + comuna + '\'' +

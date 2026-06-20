@@ -6,7 +6,7 @@ public class Persona {
     private String rut;
     private String telefono;
     private Direccion direccion;
-
+// composicion
     public Persona(String nombre, int edad, String rut, String telefono, Direccion direccion) {
         this.nombre = nombre;
         this.edad = edad;
@@ -60,7 +60,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
+        return "Persona {" +
                 "nombre='" + nombre + '\'' +
                 ", edad=" + edad +
                 ", rut='" + rut + '\'' +

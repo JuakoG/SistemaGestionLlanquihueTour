@@ -1,5 +1,8 @@
 package model;
 
+
+// hereda a persona
+
 public class Empleado extends Persona {
     private String cargo;
     private boolean estaEnTurno;
@@ -28,10 +31,16 @@ public class Empleado extends Persona {
 
     @Override
     public String toString() {
-        return super.toString() +
-                "\nEmpleado{" +
-                "cargo='" + cargo + '\'' +
-                ", estaEnTurno=" + estaEnTurno +
-                '}';
+        return "Empleado { " +
+                "Nombre: " + getNombre() +
+                " | Edad: " + getEdad() +
+                " | Rut: " + getRut() +
+                " | Telefono: " + getTelefono() +
+                " | Direccion: " + getDireccion() +
+                " | Cargo: " + cargo +
+                " | En turno: " + estaEnTurno +
+                " }";
     }
+
 }
+
