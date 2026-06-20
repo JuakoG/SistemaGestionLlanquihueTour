@@ -1,5 +1,5 @@
 Duoc UC
-🧠 Evaluación 1 – Desarrollo Orientado a Objetos I
+🧠 Evaluación 2 – Desarrollo Orientado a Objetos I
 
 👤 Autor del Proyecto
 
@@ -10,29 +10,51 @@ Carrera: Analista Programador Computacional
 
 Sede: Campus Virtual
 
-📘 Descripción general del sistema
-
-Este proyecto corresponde a la primera evaluacion de la asignatura Desarrollo Orientado a Objetos I.
-El sistema fue desarrollado para la empresa Llanquihue Tour que tiene procesos que se gestionan manualmente. Debido a esta situacion, se propone una solucion de digitalizar operaciones para organizar la informacion. 
-Este sistema esta organizado mediante paquetes,principios de encapsulamiento,composicion y reutilizacion de clases en java aplicando conceptos de programacion orientadas a objetos.
+Descripción general del sistema
 
 
-🧱 Estructura general del proyecto
+Este proyecto corresponde a la segunda evaluación de la asignatura Desarrollo Orientado a Objetos I.
 
-📁 src/
+El sistema fue desarrollado para la empresa Llanquihue Tour con el objetivo de mejorar la gestión de la información de los empleados. Para ello, se creó una aplicación en Java capaz de leer datos desde un archivo de texto, crear objetos con esa información y mostrarlos por consola.
 
-├── app/         # Clase principal con el método main
+Durante el desarrollo se aplicaron conceptos vistos en la asignatura como encapsulamiento, herencia, composición,creacion de medotos,uso de ArrayList y lectura de archivos.
 
-├── model/       # Clases de dominio (Persona,Empleado,Direccion)
+ Estructura general del proyecto
+
+ src/
+
+├── app/ Clase principal con el método Main
+
+├── model/  Clases del dominio
+
+├── service/  Gestión y carga de datos desde archivos
 
 
-Clases implementadas
+Archivo utilizado
 
-Persona: clase base que representa a una persona.
 
-Direccion: clase utilizada mediante composición para almacenar información de dirección.
+tour.txt
 
-Empleado: clase que hereda de Persona y agrega información de los empleados.
+Archivo de texto que almacena la información de los empleados. Este archivo es leído por la clase `GestorDatos`, que procesa cada línea y crea los objetos correspondientes para ser almacenados en un `ArrayList`.
+
+
+ Clases implementadas
+ 
+
+Persona
+Clase base que representa a una persona mediante atributos como nombre, edad, rut, teléfono y dirección.
+
+Direccion
+Clase utilizada mediante composición para almacenar información relacionada con la dirección de una persona.
+
+ Empleado
+Clase que hereda de Persona e incorpora atributos como cargo y estado de turno.
+
+ GestorDatos
+Clase encargada de leer la información desde archivos de texto, crear los objetos correspondientes , almacenarlos y crear metodos.
+
+Main
+Clase principal encargada de ejecutar el programa y mostrar los resultados por consola.
 
 
 ⚙️ Instrucciones para clonar y ejecutar el proyecto
@@ -45,6 +67,6 @@ Ejecuta el archivo Main.java desde el paquete app.
 
 Observar los resultados generados en la consola.
 
-Repositorio GitHub: https://github.com/JuakoG/SistemaGestionLlanquihueTour Fecha de entrega: [05/06/2026]
+Repositorio GitHub: https://github.com/JuakoG/SistemaGestionLlanquihueTour Fecha de entrega: [20/06/2026]
 
 © Duoc UC | Escuela de Informática y Telecomunicaciones 
